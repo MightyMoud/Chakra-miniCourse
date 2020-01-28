@@ -1,7 +1,6 @@
 import {
 	Input,
 	Stack,
-	InputLeftAddon,
 	Icon,
 	InputGroup,
 	InputLeftElement,
@@ -30,7 +29,7 @@ const SignupForm = () => {
 						<Input type='name' placeholder='Last name' aria-lable='Last name' />
 					</InputGroup>
 				</FormControl>
-				<Divider />
+				<Divider borderColor='gray.300' />
 				<FormControl isRequired>
 					<InputGroup>
 						<InputLeftElement children={<Icon name='email' />} />

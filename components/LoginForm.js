@@ -1,13 +1,11 @@
 import {
 	Input,
 	Stack,
-	InputLeftAddon,
 	Icon,
 	InputGroup,
 	InputLeftElement,
 	Button,
 	FormControl,
-	Divider,
 	FormHelperText,
 } from '@chakra-ui/core';
 const LoginForm = () => {
