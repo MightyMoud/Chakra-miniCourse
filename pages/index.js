@@ -1,8 +1,15 @@
+import { ThemeProvider, Box, useColorMode } from '@chakra-ui/core';
+
 const index = () => {
+	const { colorMode } = useColorMode();
 	return (
-		<div style={{ textAlign: 'center', fontSize: '1.25rem' }}>
-			Let's Start from here!
-		</div>
+		<Box
+			w='200px'
+			h='15vh'
+			bg={colorMode === 'light' ? 'gray.500' : 'gray.200'}
+			boxShadow='md'
+			rounded='lg'
+		/>
 	);
 };
 

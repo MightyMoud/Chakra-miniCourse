@@ -29,7 +29,7 @@ const Navbar = () => {
 			p={2}>
 			<Flex w={['100vw', '100vw', '80vw', '80vw']} justify='space-around'>
 				<Box>
-					<Image h='5vh' src='./logo.svg' alt='Logo of Chakra-ui' />
+					<Image h='4vh' src='./logo.svg' alt='Logo of Chakra-ui' />
 				</Box>
 				<Stack
 					spacing={8}
