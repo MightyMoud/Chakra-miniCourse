@@ -6,8 +6,8 @@ const List = () => {
 	return (
 		<Flex
 			maxW='1000px'
-			w='70vw'
-			direction='row'
+			w={['90vw', '90vw', '90vw', '70vw']}
+			direction={['column', 'column', 'row', 'row']}
 			justify='center'
 			bg={bgColor[colorMode]}
 			boxShadow='md'
